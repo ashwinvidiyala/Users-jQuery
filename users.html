@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="users.css">
+    <script type="text/javascript"
+    src= "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    </script>
+    <script src='users.js'></script>
+  </head>
+  <body>
+    <div id='container'>
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+            <th>Contact #</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+      <h1>Add User</h1>
+
+      <form id='form' method='post'>
+        First Name: <input class='form-box' type="text" name="first_name">
+        Last Name: <input class='form-box' type="text" name="last_name">
+        Email Address:<input class='form-box' type="text" name="email">
+        Contact #: <input class='form-box' type="text" name="contact">
+        <input id='submit' type="submit" value="Submit!">
+      </form>
+
+    </div>
+  </body>
+</html>

@@ -6,3 +6,5 @@ to the table. Make sure that each form field appends to its proper row/column
 in the table.
 
 This is what the final assignment looked like:
+
+![Users Final Assignment](users.png)

@@ -1,0 +1,42 @@
+#container {
+  width: 970px;
+  font-family: arial;
+}
+
+table {
+   border: 1px solid black;
+   width: 50%;
+}
+
+th, td {
+  text-align: left;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+#form {
+  width: 28%;
+  padding: 5px;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  padding-top: 5px;
+  text-align: left;
+}
+
+input.form-box {
+  display: inline-bock;
+}
+
+input[type='submit'] {
+  display: block;
+  font-size: 100px;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 163px;
+}
